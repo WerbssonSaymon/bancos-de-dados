@@ -10,7 +10,6 @@
 
 ---
 title: zoologico
----
 
 classDiagram
     class zoologico
@@ -20,3 +19,4 @@ classDiagram
     zoologico : title VARCHAR(100)
     zoologico : address VARCHAR(255)
     zoologico : phone INT
+---
