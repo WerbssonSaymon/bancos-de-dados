@@ -105,7 +105,7 @@ classDiagram
     note  "1 - Vertebrado
            2 - Invertebrado"
     group_animal : group_id INT PK
-    group_animal : name VARCHAR 10
+    group_animal : group_name VARCHAR 10
 
 ```
 
