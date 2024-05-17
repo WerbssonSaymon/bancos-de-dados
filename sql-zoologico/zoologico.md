@@ -62,7 +62,15 @@ Para finalizar, inserir as inserções de valores nas 3 tabelas, sendo 90 regist
 
 ```sql
 SELECT * FROM `aquario` WHERE perigoso = 1
+
 SELECT `nome`, `quantidade` FROM `aquario` WHERE quantidade > 10
+
 SELECT * FROM `aviario` ORDER BY id DESC LIMIT 5;
+
+SELECT COUNT(DISTINCT dieta) FROM `aviario`;
+
+SELECT (nome) FROM `recinto` WHERE origem = "Africa" AND dieta = "carnivoro";
+
+SELECT * FROM `recinto` WHERE quantidade BETWEEN 5 AND 10;
 ```
     
