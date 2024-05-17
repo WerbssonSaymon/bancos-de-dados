@@ -17,6 +17,8 @@ Requisitos:
 
 Modelagem entidade-relacionamento
 
+![Modelagem enridade-relcionamento](zoologico-mer.png)
+
 É criado o banco de dados com nome zoologico, junto com 3 tabelas que representam as áreas dos zoologico.
 
 ```sql
